@@ -1,0 +1,7 @@
+{
+  "id": "YOUR_NAME_HERE",
+  "cmd": "echo 'Hello, YOUR_NAME_HERE' > readme.txt && python -m SimpleHTTPServer $PORT",
+  "mem": 8,
+  "cpus": 0.1,
+  "instances": 1
+}
