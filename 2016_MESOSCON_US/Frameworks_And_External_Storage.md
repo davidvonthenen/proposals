@@ -27,6 +27,25 @@ Advanced
 **Provide us with an abstract about what you will be presenting at the event (900 characters maximum).:**  
 Since being unveiled at MesosCon Europe in 2015, external persistent volumes have quickly received a lot of attention with its potential applications. We will discuss using volume drivers as means of provisioning external storage for Mesos Frameworks. We will specifically use the Elastic Search framework (https://github.com/mesos/elasticsearch) as a reference implementation to discuss how the solution of adding external volumes was architected. A demo of the Elastic Search framework will be provided with discussions about how external storage can benefit Frameworks and the applications they manage.
 
+Proposal Outline:
+- What is a Framework?
+  - Schedulers
+  - Executors
+- External Storage Considerations for Frameworks
+  - Storage is a externally managed.
+  - Only consider CPU and memory for Offers
+  - Need a concept of a "Node ID". Describe why this Node ID is important.
+- "Node ID"
+  - Need a mechanism in order to tie a Node to Persistent Storage
+  - Needs to support Mesos Agent failover
+  - How do we accomplish this?
+- Demo Description
+  - Supports Docker Volume Driver Interface (DVDI)
+  - Support mesos-module-dvdi for non-Docker Executors
+- Demo
+  - Deploy ElasticSearch Framework using External Storage
+    - Discuss the behaviors of the Framework
+
 **Tell us how the content of your presentation will help better the ecosystem (900 characters maximum).:**  
 This discussion will help developers understand some of the challenges and solutions that were encountered when enabling external storage for Frameworks, provide insight for potential enhancement requests for Mesos, and expand the Mesos user base understanding of Mesos Frameworks.
 
