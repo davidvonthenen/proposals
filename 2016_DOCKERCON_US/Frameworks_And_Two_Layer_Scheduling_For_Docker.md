@@ -12,7 +12,7 @@ vonThenen
 david.vonthenen {at} emc {dot} com
 
 **Title:**  
-Frameworks and Two Layer Scheduling for Docker
+Developer Advocate
 
 **Company:**  
 EMC {code}
@@ -106,7 +106,7 @@ Proposal Outline:
 Yes
 
 **Keywords**  
-Docker Volume Driver, High Availability, Scheduler
+Docker Volume Driver, High Availability, Scheduler, External Storage, Storage, Two Layer Scheduler
 
 **Can your CFP be turned into a lightning talk?:**  
 No
