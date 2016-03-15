@@ -33,7 +33,7 @@ Deep Dive with Mesos and Persistent Storage for Applications
 Persistent applications that can be complex to operate and scale tend to be perfect for Apache Mesos. Internal direct attached storage and external storage are both options to run your applications. This talk will outline patterns for using these to allow deployment of managed frameworks and tasks, while maintaining fault tolerance and scalability.
 
 **Please provide a short speaker bio (75 words max):**  
-I have been working in the industry for the past 15 years in various areas of ranging from semiconductors, mainframe computing, and iSCSI/FC/FCoE storage initiators/targets. Prior to my current role, I was a technical architect and lead for a Backup/Recovery solution at EMC with heavy focus in the virtualization space, VMware in particular. I have taken a new role within EMC and joined an organization called EMC {code} which lives and breathes Open Source and transparency to the community.
+David vonThenen is a Developer Advocate at EMC. He is currently a member of the EMC {code} team which lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Apache Mesos to storage orchestration platforms. Prior to joining EMC {code}, David was a technical architect and development lead for a Backup/Recovery solution with heavy focus in the virtualization space, VMware in particular. David has previous experience in areas ranging in semiconductors, mainframe computing, and iSCSI/FC/FCoE storage initiators and targets.
 
 **Please provide a speaker profile picture:**  
 Submitted One
