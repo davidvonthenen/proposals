@@ -15,7 +15,7 @@ david.vonthenen@emc.com
 Consultant Software Engineer
 
 **Where do you work?:**  
-EMC {code}}
+EMC {code}
 
 **Company website?:**  
 http://emccode.github.io/
