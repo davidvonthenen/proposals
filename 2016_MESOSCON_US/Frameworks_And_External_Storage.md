@@ -13,7 +13,7 @@ David vonThenen
 david.vonthenen@emc.com  
 Developer Advocate  
 
-David vonThenen is a Developer Advocate at EMC. He is currently a member of the EMC {code} team which lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Apache Mesos to storage orchestation platforms. Prior to joining EMC {code}, David was a technical architect and development lead for a Backup/Recovery solution at EMC with heavy focus in the virtualization space, VMware in particular. David has previous experience in a wide variety of areas ranging from semiconductors, mainframe computing, and iSCSI/FC/FCoE storage initiators/target.
+David vonThenen is a Developer Advocate at EMC. He is currently a member of the EMC {code} team which lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Apache Mesos to storage orchestration platforms. Prior to joining EMC {code}, David was a technical architect and development lead for a Backup/Recovery solution with heavy focus in the virtualization space, VMware in particular. David has previous experience in areas ranging in semiconductors, mainframe computing, and iSCSI/FC/FCoE storage initiators and targets.
 
 **Choose the category for your proposal (Developer, Operations, Business/Legal, Wildcard):**  
 Developer
