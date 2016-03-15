@@ -24,7 +24,7 @@ http://dvonthenen.com
 EMC World
 
 **Link to videos from previous talks:**  
-https://www.youtube.com/watch?v=YE2bLuP5M2c
+NA
 
 **Twitter Handle**  
 dvonthenen
