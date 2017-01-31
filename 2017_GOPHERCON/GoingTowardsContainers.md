@@ -14,37 +14,42 @@ Description:
 Containers aren't new. There is has been an incredible amount of buzz and interest surrounding them, BUT the tides are turning as 2016 marked an important year in a significant uptick in real production deploys. This tutorial will talk about a path from a Go perspective to get your hands dirty with containers both for evaluation and heading towards production.
 
 Outline:
-- Intro
-  - Stats for container use
-- Containers 101
-  - Benefits
-  - Docker
-- Review Go Strengths
-- Best of Both Worlds
-  - Synergy!
-- Demo
-  - Go Development Env
-    - Spin it up quickly!
-    - Simple application in seconds!
-    - Linux or Windows platform
-  - Builds
-    - More complex application (REST API)
-    - Dockerfile introduction
+1. Intro  
+  * Stats for container use  
+2. Containers 101  
+  * Benefits  
+  * Docker  
+3. Review Go Strengths  
+4. Best of Both Worlds  
+  * Synergy!  
+5. Demo  
+  * Go Development Env  
+    - Spin it up quickly!  
+    - Simple application in seconds!  
+    - Linux platform  
+    - Windows platform  
+  * Working with your existing Go IDE  
+    - Importing and Exporting your Go Source  
+  * Building  your Go app
+    - Reproducible Build Env  
+    - More complex application (REST API)  
+    - Dockerfile introduction  
     - Create Docker image
-  - Test
-    - Deploy our application
-    - Let's test our application!
-  - Publishing
-    - To Docker Hub
-    - Continuous Integration
-  - End-Users
-    - How end-users deploy?
-    - Same!
-- Wrap up
-  - Dev/Test methodology is Production
-  - Outlined a possible application lifecycle
-  - Micro-services!
-    - Forward Looking: Container Schedulers
+    - Migrating to a newer version of Go. Simple!  
+  * Test  
+    - Deploy our application  
+    - Let's test our application!  
+  * Publishing  
+    - To Docker Hub  
+    - Continuous Integration  
+  * End-Users  
+    - How end-users deploy?  
+    - Same!  
+6. Wrap up  
+  * Dev/Test methodology is Production  
+  * Outlined a possible application lifecycle  
+  * Micro-services!  
+    - Forward Looking: Container Schedulers  
 
 In conclusion, this session outlines a possible software development and publishing strategy, but more importantly, it offers an easy to consume guide for Go users to quickly pick up containers both for Dev/Test while also looking the full application lifecycle. This provides a great introduction and conversation starter in how containers can be adopted and adapted within your organization.
 
