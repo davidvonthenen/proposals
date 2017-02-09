@@ -21,13 +21,13 @@ Containers are starting to reach the masses and people are using them in ways ot
 We will discuss the benefits and challenges of using direct attached or external storage and how that impacts applications running in production environments. The trade-offs of each decision have interesting consequences starting from initial deployment to "day 2" operations and even how these applications tolerate system failures.
 
 **Audience. Describe who the audience is and what you expect them to gain from your presentation.:**  
-The audience will learn about different persistence models in Mesos and how they affect modern applications in production. We will highlight some projects in the community as well as highlight recent work embedded Mesos 1.0 and higher that enable external storage for its end-users. A demo will be presented showing how a NoSQL database can take advantage of these types of persistence models.
+The audience will learn about different persistence models in Mesos and how they affect modern applications in production. We will highlight some projects in the community as well as highlight recent work embedded in Mesos 1.0 and higher that enable external storage for its end-users. A demo will be presented showing how a NoSQL database can take advantage of these types of persistence models.
 
 **Experience Level. (Beginner, Intermediate, Advanced, Any):**  
 Intermediate
 
 **Benefits to the Ecosystem. Tell us how the content of your presentation will help better the ecosystem. This could be for Linux, open source, open cloud, embedded, etc.:**  
-This presentation will discuss how users can deploy applications for production Mesos environments, storage orchestration engines to provision persistent volumes, and features present in Mesos that can be used today. Additionally, we will briefly highlight in the demonstration portion of the presentation the capabilities that NoSQL databases provide and how Mesos works seamlessly in cloud environments like AWS.
+This presentation will discuss how users can deploy applications for production Mesos environments, storage orchestration engines to provision persistent volumes, and features present in Mesos that can be used today. In the demo, we will briefly highlight the capabilities that NoSQL databases provide and how Mesos works seamlessly in cloud environments like AWS.
 
 **Technical Requirements:**  
 None, all demos will be done over AWS.
