@@ -1,0 +1,14 @@
+{
+  "id": "scaleio-scheduler",
+  "uris": [
+    "http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/scaleio-scheduler",
+    "http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/scaleio-executor"
+  ],
+  "cmd": "chmod u+x scaleio-scheduler && ./scaleio-scheduler -loglevel=debug -debug=true -experimental=true -rest.port=$PORT -uri=ec2-35-161-109-154.us-west-2.compute.amazonaws.com:5050 -executor.cpu.mdm=1.0 -executor.mem.mdm=1024 -executor.cpu.non=0.5 -executor.mem.non=256 -aws.checkfull=1 -aws.accesskey=XXXXXX -aws.secretkey=XXXXXX -scaleio.ubuntu14.gw=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/emc-scaleio-gateway_2.0-10000.2072_amd64.deb -scaleio.ubuntu14.lia=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-lia-2.0-10000.2072.Ubuntu.14.04.x86_64.deb -scaleio.ubuntu14.mdm=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-mdm-2.0-10000.2072.Ubuntu.14.04.x86_64.deb -scaleio.ubuntu14.sdc=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-sdc-2.0-10000.2072.Ubuntu.14.04.x86_64.deb -scaleio.ubuntu14.sds=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-sds-2.0-10000.2072.Ubuntu.14.04.x86_64.deb -scaleio.rhel7.gw=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-gateway-2.0-10000.2072.x86_64.rpm -scaleio.rhel7.lia=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-lia-2.0-10000.2072.el7.x86_64.rpm -scaleio.rhel7.mdm=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-mdm-2.0-10000.2072.el7.x86_64.rpm -scaleio.rhel7.sdc=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-sdc-2.0-10000.2072.el7.x86_64.rpm -scaleio.rhel7.sds=http://ec2-52-33-234-154.us-west-2.compute.amazonaws.com/EMC-ScaleIO-sds-2.0-10000.2072.el7.x86_64.rpm",
+  "mem": 32,
+  "cpus": 0.2,
+  "instances": 1,
+  "constraints": [
+    ["hostname", "UNIQUE"]
+  ]
+}

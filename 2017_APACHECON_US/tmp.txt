@@ -1,0 +1,71 @@
+
+
+Change Metadata in Zookeeper:
+/usr/share/nginx/html/scaleio-scheduler -store.uri=ec2-35-161-109-154.us-west-2.compute.amazonaws.com:2181 -store.delete=true -loglevel=debug -debug=true -experimental=true
+/usr/share/nginx/html/scaleio-scheduler -store.uri=ec2-35-161-109-154.us-west-2.compute.amazonaws.com:2181 -store.dump=true -loglevel=debug -debug=true -experimental=true
+
+/usr/share/nginx/html/scaleio-scheduler -store.uri=ec2-35-161-109-154.us-west-2.compute.amazonaws.com:2181 -store.add.key=scaleio-framework/scaleio/configuration/ec2-54-202-42-44.us-west-2.compute.amazonaws.com/state -store.add.value=0 -loglevel=debug -debug=true -experimental=true
+/usr/share/nginx/html/scaleio-scheduler -store.uri=ec2-35-161-109-154.us-west-2.compute.amazonaws.com:2181 -store.add.key=scaleio-framework/scaleio/configuration/ec2-54-245-11-123.us-west-2.compute.amazonaws.com/state -store.add.value=0 -loglevel=debug -debug=true -experimental=true
+/usr/share/nginx/html/scaleio-scheduler -store.uri=ec2-35-161-109-154.us-west-2.compute.amazonaws.com:2181 -store.add.key=scaleio-framework/scaleio/configuration/ec2-54-202-132-82.us-west-2.compute.amazonaws.com/state -store.add.value=0 -loglevel=debug -debug=true -experimental=true
+
+
+
+On 1.0.0:
+curl -k -XPOST -d @scaleio-full-AWS-test-debug.json -H "Content-Type: application/json" ec2-35-161-109-154.us-west-2.compute.amazonaws.com:8080/v2/apps
+
+
+
+
+Clean Up:
+rpm -qa | grep EMC
+
+rpm -e EMC-ScaleIO-gateway
+rpm -e EMC-ScaleIO-lia
+rpm -e EMC-ScaleIO-sdc
+rpm -e EMC-ScaleIO-sds
+rpm -e EMC-ScaleIO-mdm
+rpm -e rexray
+rpm -e dvdcli
+rm -rf /opt/emc/scaleio
+rm -rf /etc/rexray
+rm -rf /root/.rexray
+rm -rf /root/.rexray/etc/rexray
+rm -rf /etc/scaleio-framework
+rm -f /usr/lib/libmesos_dvdi_isolator-1.0.0.so
+echo "docker/runtime,filesystem/linux" | tee /etc/mesos-slave/isolation
+rm -f /etc/mesos-slave/modules
+rm -f /var/run/mesos/*
+rm -rf /tmp/mesos/meta/slaves/latest
+rm -rf /var/lib/mesos/meta/slaves/latest
+rm -rf /tmp/mesos
+rm -rf /var/lib/mesos
+rm -f /var/log/rexray/rexray.log
+service mesos-slave restart
+
+
+Force remove:
+rpm --nodeps --noscript -e EMC-ScaleIO-gateway
+rpm --nodeps --noscript --justdb -e EMC-ScaleIO-gateway
+
+
+
+
+First stop on all masters:
+service marathon stop
+stop mesos-master
+service zookeeper stop
+rm -rf /var/lib/zookeeper/version-2
+rm -rf /tmp/mesos
+rm -f /var/log/mesos/*
+
+You might have to run this on all slaves:
+service mesos-slave stop
+rm -rf /tmp/mesos/meta/slaves/latest
+rm -rf /tmp/mesos
+rm -f /var/log/mesos/*
+service mesos-slave start
+
+Then start:
+service zookeeper start
+start mesos-master
+service marathon start

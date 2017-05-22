@@ -1,4 +1,4 @@
-**Proposal for ContainerCon EU 2016**  
+**Proposal for ApacheCon US 2017**  
 
 **Submission Type (BoF, Lightning Talk, Panel Discussion, Presentation, Tutorial, Mini Summit, Lab)**  
 Presentation
