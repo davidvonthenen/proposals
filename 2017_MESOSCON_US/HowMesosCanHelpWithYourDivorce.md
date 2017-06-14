@@ -15,8 +15,12 @@ David vonThenen is an Open Source Engineer at {code} by Dell EMC. The {code} tea
 **Abstract Title**  
 How Mesos Can Help With Your Gambling Problem
 
+How Mesos Can Help With Your Divorce
+
 **Abstract. Provide an abstract that briefly summarizes your proposal. This is the abstract that will be posted on the website schedule, so please ensure that it is in complete sentences (and not just bullet points) and that it is written in the third person (use your name instead of I).:**  
 Let's suppose your organization took a pile of modernization money to the race track and bet big on a particular horse because it was touted as being the best, the "latest and greatest", and a sure thing. As the race progresses, you come to find out that others have decided to place bets elsewhere. Some people are even tearing up their bets in frustration because their pony is losing steam due to lack of maintenance. The last thing you want to do is admit we blew the bankroll on a bad investment to your boss... err, your loan shark. What to do?
+
+Breaking up with your software stack is never easy. In the best case, you only have to replace some of your equipment because its too old and no longer on anyones Hardware Compatibility List (HCL). The worst case can get far scarier. It isn't like the equipment is bad or junk, but it just not time for that hardware refresh yet. In the meantime, the software stack you chose is starting to show signs of aging and being abandoned with issues and bugs starting to pile up. This could be bad if you happen to be a late adopter or even worse if you bought into the pipe dream from a third part vendor and their support is non-existent. What to do?
 
 There are many benefits to Container Schedulers like Mesos. Not only do they enable Cloud Native applications and provide management for containerized workloads, but they also can provide an abstraction layer between your underlying infrastructure and how your application run. There are articles of companies or resources fleeing from technologies all the time with the latest example being Intel by cutting funding to its OpenStack effort in a recent article by Fortune.com. This session will focus on how Mesos can make it easy for your organization to get a divorce from the underlying implementation of your infrastructure and seamlessly transition into Containers or Cloud Native based architecture.
 
