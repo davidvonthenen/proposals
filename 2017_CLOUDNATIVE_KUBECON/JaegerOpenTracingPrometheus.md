@@ -38,7 +38,7 @@ Operations
 Why You Need to Think About A Monitoring, Instrumentation, and Tracing Stack NOW!
 
 **Please provide your abstract:**  
-Everyone talks about Microservices and how they are the wave of the future. There are tons of examples out there on the internet and they look incredibly easy to deploy. Unfortunately, most of those examples never speak to how you are going to manage and support these services in production. What happens when these services stop working or worse yet, when they just slow down? Which service instance(s) are the culprit? This session talks about how you can leverage Jaeger, OpenTracing, and Prometheus in order to give better visibility into your distributed nature of a Microservices architecture.
+Everyone talks about Microservices and how they are the wave of the future. There are tons of examples out there on the internet and they look incredibly easy to deploy. Unfortunately, most of those examples never speak to how you are going to manage and support these services in production. What happens when these services stop working or worse yet when they just slow down? Which service instance(s) are the culprit? This session talks about how you can leverage Jaeger, OpenTracing, and Prometheus in order to give better visibility into your distributed nature of a Microservices architecture.
 
 **Experience Level:**  
 Intermediate
