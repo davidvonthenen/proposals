@@ -35,16 +35,16 @@ Presentation
 Operations
 
 **Please provide a title for your proposal?:**  
-Debugging Microservices at Scale
+JOP is the new ZOP: A Comparison of Monitoring, Instrumentation and Tracing Stacks
 
 **Please provide your abstract:**  
-This presentation will be mostly a hands on demo using Prometheus and Jaeger to debug various scenarios one might encounter in a production deploy of Microservices. We will quickly cover Prometheus and Jaeger and the benefits they provide and then promptly move into the demo. The demo will cover how we can identify potential problems in a Kubernetes cluster by artificially creating issues in the container orchestrator, networking, and deployed Microservices. Audience participation is encouraged to discuss potential root causes for the issues discovered.
+With the recent adoption of Jaeger as a Cloud Native Computing Foundation (CNCF) hosted project, this session will focus on providing a compare and contrast between 2 different monitoring and tracing stacks namely the JOP stack, which is composed of Jaeger, OpenTracing, and Prometheus, and the ZOP stack, which is composed of Zipkin, OpenTracing, and Prometheus. Additionally, for those looking to make the leap from your existing ZOP stack to the new JOP stack, we will discuss what migration options are available.
 
 **Experience Level:**  
 Intermediate
 
 **Benefits to the Ecosystem:**  
-This presentation will show how to utilize Prometheus and Jaeger to identify issues with Microservices in a Kubernetes environment. Audience participation will be highly encouraged as we will discuss how the various identified problems can translate into things we can check within the environment to resolve the issue. The audience will become familiar with the Prometheus and Jaeger web interfaces and how to navigate various features that they provide.
+This presentation will discuss two different monitoring and tracing stacks available in the ecosystem. Those not familiar with Jaeger, Zipkin, OpenTracing, and Prometheus will get an introduction into the different technology choices that are available and the benefits they provide. Those looking to kick the tires or even migrate to Jaeger will learn about the options available to them. Will provide a demo that highlights these migration options.
 
 **Technical Requirements:**  
 None. All demos will be done on Google Compute Engine (GCE).

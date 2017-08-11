@@ -35,17 +35,17 @@ Presentation
 Operations
 
 **Please provide a title for your proposal?:**  
-Why You Need to Think About A Monitoring, Instrumentation, and Tracing Stack NOW!
+Application Monitoring and Tracing in Microservice Hell
 
 **Please provide your abstract:**  
-Everyone talks about Microservices and how they are the wave of the future. There are tons of examples out there on the internet and they look incredibly easy to deploy. Unfortunately, most of those examples never speak to how you are going to manage and support these services in production. What happens when these services stop working or worse yet when they just slow down? Which service instance(s) are the culprit? This session talks about how you can leverage Jaeger, OpenTracing, and Prometheus in order to give better visibility into your distributed nature of a Microservices architecture.
+Creating and deploying Microservices is easy. The real problem is how to manage and support these services out in the wild and in production. What happens when these services stop working or worse yet when they are running but running slowly? Which service instance is the culprit? This session talks about how you can leverage Jaeger, OpenTracing, and Prometheus in order to give better visibility into the distributed nature of a Microservice architecture in a Kubernetes environment.
 
 **Experience Level:**  
 Intermediate
 
 **Benefits to the Ecosystem:**  
-This presentation will discuss three key concepts of Instrumentation and Tracing Stack for Kubernetes and highlight Open Source Projects available that address these topics:
-1) the value of instrumentation and how Prometheus can be used to monitor and measure Kubernetes and container infrastructure
+This presentation will discuss key concepts of Instrumentation and Tracing Stack and highlight Open Source Projects available that address these topics:
+1) the value of instrumentation and how Prometheus can be used to monitor and measure a Kubernetes cluster
 2) what OpenTracing is and the benefits it provides
 3) how Jaeger can provide visibility into your applications and services
 
