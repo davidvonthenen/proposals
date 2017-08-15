@@ -35,10 +35,10 @@ Presentation
 Operations
 
 **Please provide a title for your proposal?:**  
-JOP is the new ZOP: A Comparison of Monitoring, Instrumentation and Tracing Stacks
+A Comparison of Monitoring, Instrumentation and Tracing Stacks
 
 **Please provide your abstract:**  
-With the recent adoption of Jaeger as a Cloud Native Computing Foundation (CNCF) hosted project, this session will focus on providing a compare and contrast between 2 different monitoring and tracing stacks namely the JOP stack, which is composed of Jaeger, OpenTracing, and Prometheus, and the ZOP stack, which is composed of Zipkin, OpenTracing, and Prometheus. Additionally, for those looking to make the leap from your existing ZOP stack to the new JOP stack, we will discuss what migration options are available.
+With the recent adoption of Jaeger as a Cloud Native Computing Foundation (CNCF) hosted project, this session will focus on providing a compare and contrast between 2 variations of a monitoring and tracing stack. We will focus how substituting Zipkin and Jaeger with OpenTracing and Prometheus provides different benefits and capabilities. Additionally, for those looking to make the leap from your existing Zipkin deployments to Jaeger based one, we will discuss what migration options are available.
 
 **Experience Level:**  
 Intermediate
