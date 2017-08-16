@@ -26,7 +26,7 @@ David vonThenen is an Open Source Engineer at {code} by Dell EMC. The {code} tea
 Male
 
 **Which Track are you submitting for?:**  
-CloudNativeCon
+OpenTracing
 
 **What type of submission is your proposal?:**  
 Presentation
@@ -35,16 +35,16 @@ Presentation
 Operations
 
 **Please provide a title for your proposal?:**  
-A Comparison of Monitoring, Instrumentation and Tracing Stacks
+A microservices journey using Jaeger tracing in Kubernetes
 
 **Please provide your abstract:**  
-With the recent adoption of Jaeger as a Cloud Native Computing Foundation (CNCF) hosted project, this session will focus on providing a compare and contrast between 2 variations of a monitoring and tracing stack. We will focus how substituting Zipkin and Jaeger with OpenTracing and Prometheus provides different benefits and capabilities. Additionally, for those looking to make the leap from your existing Zipkin deployments to Jaeger based one, we will discuss what migration options are available.
+This talk covers my journey on implementing Jaeger tracing in Microservices running in Kubernetes. We will discuss some of the interesting hurdles and roadblocks that I encountered during implementation. There are a number of interesting considerations that Kubernetes poses due to the way routing and service discovery is handled. These considerations also change between versions of Kubernetes where in certain configuration you may or may not have an optimal implementation. 
 
 **Experience Level:**  
 Intermediate
 
 **Benefits to the Ecosystem:**  
-This presentation will discuss two different monitoring and tracing stacks available in the ecosystem. Those not familiar with Jaeger, Zipkin, OpenTracing, and Prometheus will get an introduction into the different technology choices that are available and the benefits they provide. Those looking to kick the tires or even migrate to Jaeger will learn about the options available to them. Will provide a demo that highlights these migration options.
+This presentation will discuss how to implement Microservices using Jaeger and OpenTracing to be deployed into a Kubernetes environment. There are a couple of different methods the Jaeger client enables tracing for users. Deploying an application leveraging a Jaeger client into a Kubernetes cluster changes some assumptions about how you might implementing tracing.
 
 **Technical Requirements:**  
 None. All demos will be done on Google Compute Engine (GCE).

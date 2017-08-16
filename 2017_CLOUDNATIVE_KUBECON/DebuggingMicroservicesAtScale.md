@@ -38,7 +38,7 @@ Operations
 Debugging Microservices at Scale
 
 **Please provide your abstract:**  
-This presentation will be mostly a hands on demo using Prometheus and Jaeger to debug various scenarios one might encounter in a production deploy of Microservices. We will quickly cover Prometheus and Jaeger and the benefits they provide and then promptly move into the demo. The demo will cover how we can identify potential problems in a Kubernetes cluster by artificially creating issues in the container orchestrator, networking, and deployed Microservices. Audience participation is encouraged to discuss potential root causes for the issues discovered.
+This presentation will be a hands on demo using Prometheus and Jaeger to debug various scenarios one might encounter in a production deploy of Microservices. We will quickly cover Prometheus and Jaeger and the benefits they provide and then promptly move into the demo. The demo will cover how we can identify potential problems in a Kubernetes cluster by artificially creating issues in the container orchestrator, networking, and deployed Microservices. Audience participation is encouraged to discuss potential root causes for the issues discovered.
 
 **Experience Level:**  
 Intermediate
