@@ -17,7 +17,7 @@ david.vonthenen@dell.com
 Open Source Engineer
 
 **Company:**  
-{code} by Dell Technologies
+{code}
 
 **Biography:**  
 David vonThenen is an Open Source Engineer at {code} by Dell EMC. The {code} team lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Kubernetes, Apache Mesos, Docker, and storage orchestration platforms. Prior to joining {code} by Dell EMC, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus in the virtualization space, VMware in particular.
@@ -38,7 +38,7 @@ Operations
 A microservices journey using Jaeger tracing in Kubernetes
 
 **Please provide your abstract:**  
-This talk covers my journey on implementing Jaeger tracing in Microservices running in Kubernetes. We will discuss some of the interesting hurdles and roadblocks that I encountered during implementation. There are a number of interesting considerations that Kubernetes poses due to the way routing and service discovery is handled. These considerations also change between versions of Kubernetes where in certain configuration you may or may not have an optimal implementation. 
+This talk covers my journey on implementing Jaeger tracing in Microservices running in Kubernetes. We will discuss some of the interesting hurdles and roadblocks that I encountered during implementation. There are a number of interesting considerations that Kubernetes poses due to the way routing and service discovery is handled. These considerations also change between versions of Kubernetes where in certain configuration you may or may not have an optimal implementation.
 
 **Experience Level:**  
 Intermediate

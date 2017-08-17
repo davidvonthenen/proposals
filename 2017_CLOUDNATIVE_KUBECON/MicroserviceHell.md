@@ -17,7 +17,7 @@ david.vonthenen@dell.com
 Open Source Engineer
 
 **Company:**  
-{code} by Dell Technologies
+{code}
 
 **Biography:**  
 David vonThenen is an Open Source Engineer at {code} by Dell EMC. The {code} team lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Kubernetes, Apache Mesos, Docker, and storage orchestration platforms. Prior to joining {code} by Dell EMC, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus in the virtualization space, VMware in particular.
