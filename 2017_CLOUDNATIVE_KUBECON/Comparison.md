@@ -20,7 +20,7 @@ Open Source Engineer
 {code}
 
 **Biography:**  
-David vonThenen is an Open Source Engineer at {code} by Dell EMC. The {code} team lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Kubernetes, Apache Mesos, Docker, and storage orchestration platforms. Prior to joining {code} by Dell EMC, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus in the virtualization space, VMware in particular.
+David vonThenen is an Open Source Engineer at {code}. The {code} team is the Open Source division at Dell Technologies where the team lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Kubernetes, Apache Mesos, Docker, and storage orchestration platforms. Prior to joining {code}, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus in the virtualization space, VMware in particular.
 
 **Gender:**  
 Male
@@ -38,7 +38,7 @@ Operations
 A Comparison of Monitoring, Instrumentation and Tracing Stacks
 
 **Please provide your abstract:**  
-This session will focus on providing a compare and contrast between 2 variations of a monitoring and tracing stack. We will focus how substituting Zipkin with Jaeger and OpenTracing with Prometheus provides different benefits and capabilities. Additionally, for those looking to make the leap from your existing Zipkin deployments to a Jaeger based one, we will discuss what migration options are available.
+This session will focus on providing a compare and contrast between 2 variations of a monitoring and tracing stack. We will focus how substituting Zipkin with Jaeger combined with OpenTracing and Prometheus provides different benefits and capabilities. Additionally, for those looking to make the leap from your existing Zipkin deployments to a Jaeger based one, we will discuss what migration options are available.
 
 **Experience Level:**  
 Intermediate
