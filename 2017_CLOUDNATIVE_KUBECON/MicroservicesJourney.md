@@ -38,7 +38,7 @@ Operations
 A Microservices Journey using Jaeger Tracing in Kubernetes
 
 **Please provide your abstract:**  
-This talk covers my journey on implementing Jaeger tracing in Microservices running in Kubernetes. We will discuss some of the interesting hurdles and roadblocks that I encountered during implementation. There are a number of interesting considerations that Kubernetes poses due to the way routing and service discovery is handled. These considerations also change between versions of Kubernetes where in certain configuration you may or may not have an optimal implementation.
+This talk covers my journey on implementing Jaeger tracing in Microservices running in Kubernetes. We will discuss some of the interesting hurdles and roadblocks that I encountered during implementation. There are a number of interesting considerations that Kubernetes poses due to the way routing and service discovery is handled. These considerations also change between versions of Kubernetes where in certain configurations you may or may not have an optimal implementation.
 
 **Experience Level:**  
 Intermediate
