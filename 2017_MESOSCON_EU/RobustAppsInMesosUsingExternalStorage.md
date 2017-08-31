@@ -10,13 +10,13 @@ Operations
 David vonThenen  
 david.vonthenen@dell.com  
 
-David vonThenen is an Open Source Engineer at {code} by Dell EMC. The {code} team lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Apache Mesos, Docker, Kubernetes, and storage orchestration platforms. Prior to joining {code} by Dell EMC, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus in the virtualization space, VMware in particular.
+David vonThenen is an Open Source Engineer at {code}. The {code} team lives and breathes Open Source by making contributions to the community in a wide variety of projects ranging from Apache Mesos, Docker, Kubernetes, and storage orchestration platforms. Prior to joining {code}, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus in the virtualization space, VMware in particular.
 
 **Abstract Title**  
 Robust Applications in Mesos using External Storage
 
 **Abstract. Provide an abstract that briefly summarizes your proposal. This is the abstract that will be posted on the website schedule, so please ensure that it is in complete sentences (and not just bullet points) and that it is written in the third person (use your name instead of I).:**  
-Containers are starting to reach the masses and people are using them in ways other than what was originally intended. We now find persistent applications like SQL and NoSQL databases being run in container schedulers like Mesos, but how to we guarantee data availability for production applications in the wake of compute node failures? There are options for using direct attached or external storage, but the devils in the details, as choices in storage types have significant repercussions.
+Containers are starting to reach the masses and people are using them in ways other than what was originally intended. We now find persistent applications like SQL and NoSQL databases being run in container schedulers like Mesos, but how do we guarantee data availability for production applications in the wake of compute node failures? There are options for using direct attached or external storage, but the devil is in the details, as choices in storage types have significant repercussions.
 
 We will discuss the benefits and challenges of using direct attached or external storage and how that impacts applications running in production environments. The trade-offs of each decision have interesting consequences starting from initial deployment to "day 2" operations and even how these applications tolerate system failures.
 
