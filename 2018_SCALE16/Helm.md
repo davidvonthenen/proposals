@@ -13,7 +13,7 @@ Kubernetes, Containers, Helm, Charts, Helm Charts, Deployment, Configuration, Go
 **Appropriate:**  
 Mature Audience
 
-**Primary contact email addres:**  
+**Primary contact email address:**  
 david.vonthenen@dell.com
 
 **Short Abstract:**  

@@ -13,7 +13,7 @@ Kubernetes, Containers, Prometheus, OpenTracing, Jaeger, CNCF, Tracing, Metrics,
 **Appropriate:**  
 Mature Audience
 
-**Primary contact email addres:**  
+**Primary contact email address:**  
 david.vonthenen@dell.com
 
 **Short Abstract:**  
