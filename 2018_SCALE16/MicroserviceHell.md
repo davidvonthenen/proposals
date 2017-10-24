@@ -1,5 +1,5 @@
 **Please provide a title for your proposal?:**  
-Application Monitoring and Tracing in Microservice Hell
+Kubernetes' Application Monitoring and Tracing in Microservice Hell
 
 **Audience:**  
 Intermediate

@@ -1,5 +1,5 @@
 **Please provide a title for your proposal?:**  
-Debugging Microservices at Scale
+Debugging Kubernetes' Microservices at Scale
 
 **Audience:**  
 Intermediate

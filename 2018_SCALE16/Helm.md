@@ -1,5 +1,5 @@
 **Please provide a title for your proposal?:**  
-Kubernetes and Helm: The KISS Method for Deploying Services
+Kubernetes and Helm: The KISS Method for Deploying Applications
 
 **Audience:**  
 Intermediate
