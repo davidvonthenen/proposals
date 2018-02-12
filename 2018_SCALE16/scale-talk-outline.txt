@@ -1,0 +1,38 @@
+Info (1 hour):
+Ballroom F
+Sunday, March 11, 2018 - 11:30 to 12:30
+
+- Title
+- Agenda
+  - Why?
+  - Metrics Basics
+  - Tracing Basics
+  - Demo
+- Why?
+  - Microservices Good
+  - Microservices Complex
+  - Examples: Scale
+  - Simple Failure (Metrics example)
+  - Complex Failure (Tracing example)
+  - Distributed nature...
+  - Reality that 1 misbehaving service can bring your app down
+  - Logs arent enough! (After the fact. Time consuming)
+  - Quickly gain visibility!
+  - metrics and tracing!
+- Metrics Basics
+  - Introduction to Prometheus
+  - Helm Deploy Prometheus
+  - https://prometheus.io/docs/introduction/overview/
+  - https://prometheus.io/docs/concepts/metric_types/
+  - Screenshots??
+- Tracing Basics
+  - Introduction to Jaeger
+  - Helm Deploy Jaeger
+  - http://jaeger.readthedocs.io/en/latest/
+  - http://jaeger.readthedocs.io/en/latest/architecture/
+  - Screenshots??
+- Demo
+  - Jaeger Chart
+  - Prometheus Chart
+  - Example simple microservices
+- Q&A
