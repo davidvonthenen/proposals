@@ -1,4 +1,5 @@
 # SCaLE 16x Demo
+## Application Monitoring and Tracing in Kubernetes: Avoiding Microservice Hell!
 
 ## Before we begin...
 
