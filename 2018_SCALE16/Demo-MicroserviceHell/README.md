@@ -11,6 +11,16 @@ git clone git@github.com:dvonthenen/proposals.git
 cd proposals/2018_SCALE16/Demo-MicroserviceHell
 ```
 
+You can find the Go source code, Dockerfile, etc for the backend service here:
+https://github.com/dvonthenen/jop-stack/tree/master/backend
+
+You can find the Go source code, Dockerfile, etc for the frontend service here:
+https://github.com/dvonthenen/jop-stack/tree/master/frontend
+
+The Docker images are published here:
+https://hub.docker.com/r/dvonthenen/jop-backend/
+https://hub.docker.com/r/dvonthenen/jop-frontend/
+
 ## Deploy Prometheus using helm
 
 helm install stable/prometheus --name metrics --set alertmanager.enabled=false --set alertmanager.persistentVolume.enabled=false --set pushgateway.enabled=false --set kubeStateMetrics.enabled=false --set server.persistentVolume.enabled=false --set nodeExporter.enabled=false --set server.service.type=NodePort -f prometheus.yml
