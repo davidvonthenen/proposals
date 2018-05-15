@@ -3,7 +3,7 @@
 
 ## Before we begin...
 
-Requires Helm... Install like so...
+Requires Helm... Install like so...  
 https://github.com/kubernetes/helm/blob/master/docs/install.md
 
 Then copy the following repo to your k8s master...
@@ -12,23 +12,27 @@ git clone git@github.com:dvonthenen/proposals.git
 cd proposals/2018_SCALE16/Demo-MicroserviceHell
 ```
 
-You can find the Go source code, Dockerfile, etc for the backend service here:
+You can find the Go source code, Dockerfile, etc for the backend service here:  
 https://github.com/dvonthenen/jop-stack/tree/master/backend
 
-You can find the Go source code, Dockerfile, etc for the frontend service here:
+You can find the Go source code, Dockerfile, etc for the frontend service here:  
 https://github.com/dvonthenen/jop-stack/tree/master/frontend
 
-The Docker images are published here:
-https://hub.docker.com/r/dvonthenen/jop-backend/
+The Docker images are published here:  
+https://hub.docker.com/r/dvonthenen/jop-backend/  
 https://hub.docker.com/r/dvonthenen/jop-frontend/
 
 ## Deploy Prometheus using helm
 
+```
 helm install stable/prometheus --name metrics --version 5.4.1 --set alertmanager.enabled=false --set alertmanager.persistentVolume.enabled=false --set pushgateway.enabled=false --set kubeStateMetrics.enabled=false --set server.persistentVolume.enabled=false --set nodeExporter.enabled=false --set server.service.type=NodePort -f prometheus.yml
+```
 
 ## Deploy Jaeger
 
+```
 helm install incubator/jaeger --name tracing --version 0.2.4 --set cassandra.config.max_heap_size=1024M --set cassandra.config.heap_new_size=256M --set cassandra.resources.requests.memory=2048Mi --set cassandra.resources.requests.cpu=0.4 --set cassandra.resources.limits.memory=2048Mi --set cassandra.resources.limits.cpu=0.4
+```
 
 ## Warning!!
 
