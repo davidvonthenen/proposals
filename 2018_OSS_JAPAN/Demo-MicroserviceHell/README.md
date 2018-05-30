@@ -1,4 +1,4 @@
-# Open Source Summit Japan Demo
+# Open Source Summit Japan 2018 Demo
 ## Application Monitoring and Tracing in Kubernetes: Avoiding Microservice Hell!
 
 ## Before we begin...
