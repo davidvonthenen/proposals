@@ -66,4 +66,6 @@ kubectl delete deployment backend
 
 helm delete --purge metrics
 helm delete --purge tracing
+
+kubectl delete statefulset tracing-cassandra
 ```
