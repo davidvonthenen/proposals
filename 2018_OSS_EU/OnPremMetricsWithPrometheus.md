@@ -2,7 +2,7 @@
 David vonThenen
 
 **Primary speaker Job Title:**  
-Developer Advocate
+Cloud Native Engineer
 
 **Primary speaker company:**  
 VMware
@@ -11,7 +11,7 @@ VMware
 vonthenend@vmware.com
 
 **Primary speaker bio:**  
-David vonThenen is a Developer Advocate at VMware working in the container orchestrator space specifically around the Kubernetes ecosystem. A significant amount of my contributions have been in revolving around projects in the Cloud Native Compute Foundation. Prior to joining VMware, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus on the virtualization space.
+David vonThenen is a Developer Advocate at VMware working in the container orchestrator space specifically around the Kubernetes and Cloud Native Computing Foundation (CNCF) ecosystems. David's upstream contributions include Kubernetes, Helm, Jaeger, Prometheus, and OpenTracing. Prior to joining VMware, David was a technical architect and development lead for a Backup/Recovery solution with a heavy focus on the virtualization space.
 
 **Track:**  
 Infrastructure & Automation (Cloud / Cloud Native / DevOps)
