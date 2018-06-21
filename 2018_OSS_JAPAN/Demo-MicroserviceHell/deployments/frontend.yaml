@@ -1,0 +1,30 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: frontend
+  labels:
+    app: frontend
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: "dvonthenen/jop-frontend:v0.0.2"
+          imagePullPolicy: Always
+          env:
+            - name: HOST_IP
+              value: "tracing-jaeger-agent.default.svc.cluster.local"
+            - name: POD_IP
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.podIP
+            - name: BACKEND_URI
+              value: "http://backend:80"
+            - name: LISTEN_IP
+              value: "0.0.0.0"
+            - name: LISTEN_PORT
+              value: "80"

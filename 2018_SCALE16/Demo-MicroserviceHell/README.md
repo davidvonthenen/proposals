@@ -28,7 +28,7 @@ helm install stable/prometheus --name metrics --version 5.4.1 --set alertmanager
 
 ## Deploy Jaeger
 
-helm install incubator/jaeger --name tracing --version 0.2.4 --set cassandra.config.max_heap_size=1024M --set cassandra.config.heap_new_size=256M --set cassandra.resources.requests.memory=2048Mi --set cassandra.resources.requests.cpu=0.4 --set cassandra.resources.limits.memory=2048Mi --set cassandra.resources.limits.cpu=0.4
+helm install incubator/jaeger --name tracing --version 0.2.4 --set cassandra.config.max_heap_size=1024M --set cassandra.config.heap_new_size=256M --set cassandra.resources.requests.memory=2048Mi --set cassandra.resources.requests.cpu=0.4 --set cassandra.resources.limits.memory=2048Mi --set cassandra.resources.limits.cpu=0.4 --set query.service.type=NodePort
 
 ## Warning!!
 
