@@ -32,8 +32,6 @@ This presentation will discuss key concepts of metrics and tracing and highlight
 
 Will provide a demo of Microservices leveraging Prometheus and Jaeger deployed to Kubernetes cluster.
 
-Will provide a demo of Microservices leveraging Prometheus and Jaeger deployed to Kubernetes cluster.
-
 **Audience:**  
 The audience should be familiar with the basics of Kubernetes. this session will enable users to think about a monitoring strategy when it comes to deploying microservices in a containerized infrastructure like Kubernetes. This talk will provide a blueprint to enable applications to use metrics and tracing tools like Prometheus and Jaeger.
 
