@@ -23,7 +23,7 @@ Session Presentation
 Intermediate
 
 **Abstract Title:**  
-Using Helm and Charts for Security Conscious User
+Using Helm and Charts for Security Conscious Users
 
 **Abstract:**  
 Container registries have made life easy and with the advent of Helm, consuming applications and services have truly simplified managing the lifecycle of containers in Kubernetes. For those workloads or companies where security means everything, pulling container images from public registries are a nonstarter. Because what could possibly go wrong blindly trusting the internet?
