@@ -1,0 +1,41 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: <initials>-http
+  labels:
+    app: <initials>-http
+spec:
+  containers:
+    - name: <initials>-http
+      image: hackday2019/<initials>-http:latest
+      imagePullPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: <initials>-http
+  name: <initials>-http
+spec:
+  type: NodePort
+  ports:
+    - port: 8000
+      protocol: TCP
+      targetPort: 8000
+  selector:
+    app: <initials>-http
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: <initials>-http
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        backend:
+          serviceName: <initials>-http
+          servicePort: 8000
