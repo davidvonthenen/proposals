@@ -27,7 +27,7 @@ Some topics that will be discussed:
 - Discuss multi-tenancy and role-based access introduced in CPI v1.1.0
 - Deployment recommendations/strategies for large and multi-tenant environments
 
-These topics will be discussed via an interactive/live demo to help encourage and support discussion with attendees.
+These topics will be facilitated via a demonstration to help encourage and support discussion with attendees.
 
 **Benefits to the Ecosystem:**  
 TODO
