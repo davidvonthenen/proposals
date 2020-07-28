@@ -1,0 +1,69 @@
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: cloud-controller-manager
+  namespace: kube-system
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    scheduler.alpha.kubernetes.io/critical-pod: ""
+  labels:
+    component: cloud-controller-manager
+    tier: control-plane
+    k8s-app: vsphere-cloud-controller-manager
+  name: vsphere-cloud-controller-manager
+  namespace: kube-system
+spec:
+  containers:
+    - name: vsphere-cloud-controller-manager
+      image: dvonthenen/vsphere-cloud-controller-manager:latest
+      imagePullPolicy: Always
+      args:
+        - /bin/vsphere-cloud-controller-manager
+        - --v=4
+        - --cloud-config=/etc/cloud/vsphere.conf
+        - --cloud-provider=vsphere
+      env:
+        - name: VSPHERE_API_DISABLE
+          value: "false"
+      volumeMounts:
+        - mountPath: /etc/cloud
+          name: vsphere-config-volume
+          readOnly: true
+      resources:
+        requests:
+          cpu: 200m
+  hostNetwork: true
+  tolerations:
+    - key: node.cloudprovider.kubernetes.io/uninitialized
+      value: "true"
+      effect: NoSchedule
+    - key: node.kubernetes.io/not-ready
+      effect: NoSchedule
+      operator: Exists
+  securityContext:
+    runAsUser: 1001
+  serviceAccountName: cloud-controller-manager
+  volumes:
+    - name: vsphere-config-volume
+      configMap:
+        name: cloud-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    component: cloud-controller-manager
+  name: vsphere-cloud-controller-manager
+  namespace: kube-system
+spec:
+  type: NodePort
+  ports:
+    - port: 43001
+      protocol: TCP
+      targetPort: 43001
+  selector:
+    component: cloud-controller-manager

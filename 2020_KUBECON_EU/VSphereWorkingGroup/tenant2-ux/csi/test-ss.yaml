@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: test-ss-ux
+spec:
+  serviceName: test-svc-ux
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test-ss-ux
+  template:
+    metadata:
+      labels:
+        app: test-ss-ux
+    spec:
+      containers:
+      - name: test-ss-ux
+        image: busybox
+        volumeMounts:
+        - mountPath: "/data"
+          name: test-persistent-storage-claim-ux
+        command: [ "sleep", "1000000" ]
+  volumeClaimTemplates:
+  - metadata:
+      name: test-persistent-storage-claim-ux
+      annotations:
+        volume.beta.kubernetes.io/storage-class: "test-sc-ux"
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      resources:
+        requests:
+          storage: 1Gi
