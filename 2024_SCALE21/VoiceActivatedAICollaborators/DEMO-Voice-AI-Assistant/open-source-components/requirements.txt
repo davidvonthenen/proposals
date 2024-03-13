@@ -1,0 +1,14 @@
+# pip install -r requirements.txt
+
+accelerate
+protobuf
+sentencepiece
+transformers
+torch
+einops 
+pocketsphinx
+pyttsx3
+py3-tts
+
+openai
+llama-cpp-python
