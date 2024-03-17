@@ -1,0 +1,6 @@
+# pip install -r requirements.txt
+
+deepgram-sdk
+python-dotenv
+pyaudio
+playsound
