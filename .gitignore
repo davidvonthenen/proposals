@@ -1,4 +1,11 @@
-# Binaries for programs and plugins
+# general
+
+# environment artifacts
+.venv
+.env
+venv/
+venv.bak/
+.vscode/
 .DS_Store
 *.exe
 *.exe~
@@ -6,7 +13,18 @@
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
+#########
+# python artifacts
+#########
+__pycache__
+*.egg-info
+dist/
+build/
+poetry.lock
+
+#########
+# python artifacts
+#########
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
