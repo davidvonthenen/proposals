@@ -1,0 +1,14 @@
+chardet==5.2.0
+packaging==24.0
+protobuf==5.26.1
+nltk==3.8.1
+datasets==2.19.1
+pandas==2.2.2
+transformers==4.40.2
+accelerate==0.30.1
+beautifulsoup4==4.12.3
+sentencepiece==0.2.0
+seqeval==1.2.2
+
+# flask
+Flask==3.0.3
