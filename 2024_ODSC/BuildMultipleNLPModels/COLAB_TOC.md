@@ -6,11 +6,11 @@ Welcome to landing page for workshop `Building Multiple Natural Language Process
 
 Using the Google Colab Notebooks in this workshop is pretty straight forward, but you will need to setup the following **FREE** accounts for services we will be using in this workshop.
 
-## Google Colab
+### Google Colab
 
 As long as you have a Google account, you should have no problem accessing [Google Colab](https://colab.research.google.com/). If you don't have a Google account, please create one.
 
-### SaaS Platforms
+### Free SaaS Platforms Accounts Required
 
 For the last third of the lab, we are going to make use of the following SaaS platforms:
 

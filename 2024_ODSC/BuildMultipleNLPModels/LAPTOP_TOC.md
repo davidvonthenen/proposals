@@ -44,7 +44,7 @@ Once you have a `conda` or `venv` environment, create a virtual workspace called
 pip install -r requirements.txt
 ```
 
-### SaaS Platforms
+### Free SaaS Platform Accounts Required
 
 For the last third of the lab, we are going to make use of the following SaaS platforms:
 
