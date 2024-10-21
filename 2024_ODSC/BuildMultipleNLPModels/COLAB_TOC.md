@@ -33,13 +33,13 @@ Set the API Key to the following environment variable: `GROQ_API_KEY`.
 
 Here are the materials for the Google Colab version of this workshop:
 
-- Slides: COMPLETED BUT WILL LINK TO LATER
+- [Access Slides](https://docs.google.com/presentation/d/1KKxXRUpzlyWjjl35dY_qfuRd8jg0pryazy9ueS5xyOo/edit?usp=sharing)
 
 ### Google Colab Notebooks
 
 Here are the Google Colab Notebooks. Please do not advance until instructed to do so!
 
-- Part 1: Building a Question Classifier Model: COMPLETED BUT WILL LINK TO LATER
-- Part 2: Building a Named Entity Recognition Model: COMPLETED BUT WILL LINK TO LATER
-- Part 3: Building a Voice Activated Assistant: COMPLETED BUT WILL LINK TO LATER
+- Part 1: [Building a Question Classifier Model Notebook](https://colab.research.google.com/drive/1NAA4V1L99JY6ML9-_7R5DtzvlnypJaq_?usp=sharing)
+- Part 2: [Building a Named Entity Recognition Model Notebook](https://drive.google.com/file/d/1qqbFnbp2aHH61KgRLaaC-4LfOytIbNDN/view?usp=sharing)
+- Part 3: [Building a Voice Activated Assistant Notebook](https://drive.google.com/file/d/1bZVYP9zRYa8-NzrZCUMq7QXjqNovUbBa/view?usp=sharing)
   - Set the `DEEPGRAM_API_KEY` and `GROQ_API_KEY` environment variables for this step!
