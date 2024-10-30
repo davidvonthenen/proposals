@@ -49,7 +49,7 @@ pip install -r requirements.txt
 For the last third of the lab, we are going to make use of the following SaaS platforms:
 
 - [Deepgram](https://deepgram.com) - This is to help facilitate building an Voice-Activated AI Assistant/Agent.
-- **Tentatively** [groq](https://console.groq.com/login) - This is to provide an LLM in the examples.
+- [groq](https://console.groq.com/login) - This is to provide an LLM in the examples.
 
 #### Deepgram Account
 
@@ -67,14 +67,15 @@ Set the API Key to the following environment variable: `GROQ_API_KEY`.
 
 Here are the materials for the Google Colab version of this workshop:
 
-- Slides: COMPLETED BUT WILL LINK TO LATER
-- Download Workshop Materials: TODO
+- [Access Slides](https://docs.google.com/presentation/d/1KKxXRUpzlyWjjl35dY_qfuRd8jg0pryazy9ueS5xyOo/edit?usp=sharing)
+- Download Workshop Materials [Download Link](https://drive.google.com/file/d/1z-TQf4vmbGcmzDaLOCdZL3Pq2CngNf8G/view?usp=drive_link)
+  - [Backup Link](https://drive.google.com/file/d/1irmgS6Vve2rrt2d0fu2yR48ujabdaR8d/view?usp=drive_link)
 
 ### Setting Up Workshop Materials
 
 #### Steps for Setup:
 
-- Unzip the <TODO.zip> to some workspace on your latop. 
+- Unzip the `ODSC_NLP-Standalone.zip` to some workspace on your latop. 
 - (Optional) Activate your virtual environment `conda` or `venv`
 - Run: `pip install -r requirements.txt`
 
