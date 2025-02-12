@@ -1,0 +1,8 @@
+# pip install -r requirements.txt
+
+openai==1.61.1
+elevenlabs==1.50.7
+deepgram-sdk==3.7.7
+python-dotenv
+pyaudio
+playsound
