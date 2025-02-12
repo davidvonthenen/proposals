@@ -1,0 +1,20 @@
+# accelerate
+# protobuf
+# sentencepiece
+# transformers
+requests
+
+# ml
+torch==2.5.1
+
+# tts
+pocketsphinx==5.0.4
+# pyttsx3==2.98
+sounddevice==0.5.1
+kokoro-onnx==0.4.0
+
+# llm
+openai==1.57.2
+
+# flask
+Flask==3.0.3
