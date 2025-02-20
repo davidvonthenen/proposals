@@ -1,0 +1,18 @@
+# pip install -r requirements.txt
+
+openai==1.61.1
+
+# Speech-to-Text
+transformers
+datasets[audio]
+accelerate
+
+# Text-to-Speech
+sounddevice==0.5.1
+kokoro-onnx==0.4.0
+
+# using Deepgram for the microphone
+deepgram-sdk==3.7.7
+
+# pyaudio for hooking in portaudio
+pyaudio
