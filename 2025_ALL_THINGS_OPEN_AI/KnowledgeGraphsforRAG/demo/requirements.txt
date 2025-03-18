@@ -1,0 +1,7 @@
+neo4j
+requests
+ctransformers
+spacy
+flask
+# langchain
+# langchain-community
