@@ -1,0 +1,17 @@
+torch==2.5.1
+captum==0.7.0
+pandas==2.2.3
+transformers==4.48.0
+numpy==1.25.2
+sentencepiece==0.2.0
+scikit-learn==1.6.1
+nltk==3.9.1
+seqeval==1.2.2
+
+seaborn==0.13.2
+matplotlib==3.10.0
+tiktoken==0.8.0
+
+captum==0.7.0
+protobuf==5.29.3
+ipython==8.31.0
