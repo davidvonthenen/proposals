@@ -1,0 +1,13 @@
+torch==2.5.1
+
+pandas==2.2.3
+transformers==4.48.0
+numpy==1.25.2
+sentencepiece==0.2.0
+scikit-learn==1.6.1
+nltk==3.9.1
+seqeval==1.2.2
+
+datasets==2.19.1
+beautifulsoup4==4.12.3
+torchtext==0.18.0
