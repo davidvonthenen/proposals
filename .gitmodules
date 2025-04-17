@@ -1,0 +1,3 @@
+[submodule "2025_DEVOXX_FRANCE/2025-devoxx-france"]
+	path = 2025_DEVOXX_FRANCE/Explaining_the_Unexplainable
+	url = https://github.com/davidvonthenen/2025-devoxx-france.git
