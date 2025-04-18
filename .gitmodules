@@ -12,3 +12,9 @@
 	path = 2025_SCALE22/DemystifyingBuildingNLPModels
 	url = https://github.com/davidvonthenen/2025-scale-22x-nlp
 	branch = main
+
+[submodule "2025_SCALE22/ParkinsonsAudioClassifier"]
+	path = 2025_SCALE22/ParkinsonsAudioClassifier
+	url = https://github.com/davidvonthenen/2025-scale-22x-parkinsons
+	branch = main
+	
