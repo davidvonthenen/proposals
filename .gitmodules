@@ -8,3 +8,7 @@
 	url = https://github.com/davidvonthenen/2025-nvidia-gtc
 	branch = main
 
+[submodule "2025_SCALE22/DemystifyingBuildingNLPModels"]
+	path = 2025_SCALE22/DemystifyingBuildingNLPModels
+	url = https://github.com/davidvonthenen/2025-scale-22x-nlp
+	branch = main
