@@ -1,9 +1,0 @@
-# batch
-mediapipe==0.10.21
-opencv-python==4.11.0.86
-numpy==1.26.4
-
-# train
-torch==2.5.1
-av==14.2.0
-
