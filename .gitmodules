@@ -1,3 +1,4 @@
-[submodule "2025_DEVOXX_FRANCE/2025-devoxx-france"]
+[submodule "2025_DEVOXX_FRANCE/Explaining_the_Unexplainable"]
 	path = 2025_DEVOXX_FRANCE/Explaining_the_Unexplainable
 	url = https://github.com/davidvonthenen/2025-devoxx-france.git
+	branch = master
