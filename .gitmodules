@@ -1,20 +1,24 @@
 [submodule "2025_DEVOXX_FRANCE/Explaining_the_Unexplainable"]
 	path = 2025_DEVOXX_FRANCE/Explaining_the_Unexplainable
-	url = https://github.com/davidvonthenen/2025-devoxx-france
+	url = https://github.com/davidvonthenen/2025-devoxx-france.git
 	branch = main
 
 [submodule "2025_NVIDIA_GTC/Crack_the_AI_Black_Box"]
 	path = 2025_NVIDIA_GTC/Crack_the_AI_Black_Box
-	url = https://github.com/davidvonthenen/2025-nvidia-gtc
+	url = https://github.com/davidvonthenen/2025-nvidia-gtc.git
 	branch = main
 
 [submodule "2025_SCALE22/DemystifyingBuildingNLPModels"]
 	path = 2025_SCALE22/DemystifyingBuildingNLPModels
-	url = https://github.com/davidvonthenen/2025-scale-22x-nlp
+	url = https://github.com/davidvonthenen/2025-scale-22x-nlp.git
 	branch = main
 
 [submodule "2025_SCALE22/ParkinsonsAudioClassifier"]
 	path = 2025_SCALE22/ParkinsonsAudioClassifier
-	url = https://github.com/davidvonthenen/2025-scale-22x-parkinsons
+	url = https://github.com/davidvonthenen/2025-scale-22x-parkinsons.git
 	branch = main
 	
+[submodule "2025_ALL_THINGS_OPEN_AI/KnowledgeGraphsforRAG"]
+	path = 2025_ALL_THINGS_OPEN_AI/KnowledgeGraphsforRAG
+	url = https://github.com/davidvonthenen/2025-all-things-open-ai.git
+	branch = main
